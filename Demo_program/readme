@@ -1,0 +1,32 @@
+Take Window as an example, access the current folder, and execute
+   --> rtree.exe setting_path.txt
+
+To save your time, the files of pivots and CDDs are available.
+
+Below are some explanation of the parameters in file "setting_path.txt"
+
+file_cnt 2 // two source files
+dimension 4  // dimensionality of the files
+gamma 2 // similarity threshold
+alpha 0.5 // probabilistic threshold
+xi 0.1 // missing rate
+Wt_ratio 0.1 // size of sliding window w.r.t. that of source file
+R_ratio 0.3 // ratio of data repository w.r.t. that of source file
+cell_length 0.2 // the cell length for each cell in ER-grid
+entropyMin 0.5 // a threshold for selecting pivots
+Ax_interval 0.1 // constraint intervals for CDD rules
+pvtCntMax 1 // the maximal accepted pivots
+parSize 5 // a parameter for index establishing
+CDDNodeSize 100 // the maximal accepted CDD nodes
+missing_attributes 4 // which attribute is missing, in [1, dimension]
+keywords VLDB // keywords
+is_digit false false false false // whether or not attributes are digits, please use false
+file_path file1.csv file2.csv // paths of source files
+CDD_file file1_CDD.txt file2_CDD.txt // paths of CDD rules
+Pivot_path file1_pivots.txt file2_pivots.txt // paths of pivot files
+tree_path file1_tree.txt file2_tree.txt // paths of tree file
+converted_data_path file1_converted_data.txt file2_converted_data.txt // paths of converted data
+ground_truth_path ground_truth.csv // path of groundtruth
+result_path ER_results.txt // file to record results
+qe_path quality_evaluation.txt // file to record evaluation statistics
+method_ID 0 // which method to use; 0 --> TER-iDS; 1 --> I_j+G_{ER}; 2 --> CDD+ER; 3 --> DD + ER; 4 --> er+ER; 5 --> con+ER
