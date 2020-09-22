@@ -1,0 +1,25 @@
+file_cnt 2
+dimension 4
+gamma 2
+alpha 0.5
+xi 0.1
+Wt_ratio 0.1
+R_ratio 0.3
+cell_length 0.2
+entropyMin 0.5
+Ax_interval 0.1
+pvtCntMax 1
+parSize 5
+CDDNodeSize 100
+missing_attributes 4
+keywords VLDB
+is_digit false false false false
+file_path file1.csv file2.csv
+CDD_file file1_CDD.txt file2_CDD.txt
+Pivot_path file1_pivots.txt file2_pivots.txt
+tree_path file1_tree.txt file2_tree.txt
+converted_data_path file1_converted_data.txt file2_converted_data.txt
+ground_truth_path ground_truth.csv
+result_path ER_results.txt
+qe_path quality_evaluation.txt
+method_ID 0

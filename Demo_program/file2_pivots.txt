@@ -1,0 +1,4 @@
+Implementation of magic-sets in a relational database system
+A. M. Ouksel  A. Sheth
+International Conference on Management of Data
+2001

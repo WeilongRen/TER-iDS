@@ -1,0 +1,4 @@
+Incremental Clustering for Mining in a Data Warehousing Environment
+Michael J. Franklin
+SIGMOD Record
+2003
